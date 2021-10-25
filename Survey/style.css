@@ -1,56 +1,41 @@
-.fullcard {
-	position: absolute;
-	top: 10px;
-	word-wrap: all;
+.wrapper {
+	width: 800px;
+	margin: 10px auto;
+	background-color: whitesmoke;
+}
+.title{
+	text-align: center;
+	margin-bottom: 5px;
+	border: 2px solid grey;
+}
+.content{
+	text-align: justify;
+	padding-top: 10px;
+	border: 2px solid grey;
 }
 h1 {
 	color: hsl(180, 45%, 45%);
 }
 h2 {
+	text-align: left;
+	margin-left: 20px;
 	color: teal;
 	font-family:  monospace;
 	font-weight:  bold;
 	margin:  center;
 	font-size: 20px;
 }
-
-h3 {
-	color: teal;
-	font-family:  monospace;
-	font-weight:  bold;
-	margin:  center;
-	font-size: 20px;
-}
-
+/*
 body {
 	font-family:  monospace;
 	overflow-y:  scroll;
 }
-
+*/
 .text-box{
 	font-family:  monospace;
 	font-size: 12pt;
 }
-.center {
-	position: absolute;
-	left: 50%;
-	width: 50%;
-	top: 5%;
-	bottom: 5%;
-	transform: translate(-50%, -50%);
-	padding: 10px;
-}
-.divScroll {
-	overflow: scroll;
-	height: 50px;
-	width: fit-content;
+button {
+	background-color: hsl(180, 53%, 39%);
 }
 
-button {
-	background-color: #FF790E;
-}
-p, ol {
-	color: orange;
-	font-weight: bold;
-	font-size: 14px;
-}

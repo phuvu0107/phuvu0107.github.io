@@ -1,42 +1,78 @@
 <!DOCTYPE html>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="center divScroll">
-	<h1>Programmer Interest Survey</h1>
-	<form action="https://drive.google.com/drive/u/0/my-drive">
-		<ul><li><h2 style="color: teal;">Personal Information</h2></li></ul>
-		<div>
-			<ol>
-				<li><p>Enter your name: <input class="text-box" type="text" required></p></li>
-				<li><p>Enter your employee ID: <input class="text-box" type="text" required></p></li>
-				<li><p>Enter your department: <input class="text-box" type="text" required></p></li>
-				<li><p>Tell us a little about yourself: <textarea name="Comments" cols=30 rows=4></textarea></p></li>
-			</ol>
+
+<body>
+	<div class="wrapper">
+		<div class="title">
+			<h1>Programmer Interest Survey</h1>
+		</div>
+		<div class="content">
+			<form action="https://drive.google.com/drive/u/0/my-drive">
+
+
+
+				<div>
+					<h2>Personal Information</h2>
+					<ol>
+						<li>
+							<p>Enter your name: <input class="text-box" type="text" required></p>
+						</li>
+						<li>
+							<p>Enter your employee ID: <input class="text-box" type="text" required></p>
+						</li>
+						<li>
+							<p>Enter your department: <input class="text-box" type="text" required></p>
+						</li>
+						<li>
+							<p>Tell us a little about yourself: <textarea name="Comments" cols=30 rows=4></textarea></p>
+						</li>
+					</ol>
+				</div>
+
+
+
+				<div>
+					<h2>Hobbies</h2>
+					<ol start="5">
+						<li>
+							<p>What do you usually do in your free time?</br><input class="text-box" type="text"></p>
+						</li>
+						<li>
+							<p>What is your favorite sport?</br><input class="text-box" type="text"></p>
+						</li>
+						<li>
+							<p>If you have to choose one activity to do on your Sunday, what would you choose?</br>
+							<ul>
+								<li><input type="radio" name="activity">Sleep</li>
+								<li><input type="radio" name="activity">Code</li>
+								<li><input type="radio" name="activity">Read book</li>
+								<li><input type="radio" name="activity">Party</li>
+								<li><input type="radio" name="activity">Visit your family</li>
+								<li><input type="radio" name="activity">Go hiking</li>
+							</ul>
+							</p>
+						</li>
+						<li>
+							<p>What is your favorite Programming language?</br><input class="text-box" type="text"></p>
+						</li>
+						<li>
+							<p>If your non-programmer friend asked you to write a line of code, which one would you
+								write to
+								flex your knowledge?</br><input class="text-box" type="text"></p>
+						</li>
+					</ol>
+					<p style="text-align: center;">Thank you for doing our survey. Wish you had a great day!</p>
+					<p style="text-align: center;">Press the submit button to submit your survey <button>Submit</button></p></br></br>
+
+				</div>
+			</form>
 		</div>
 
-		<ul><li><h3>Hobbies</h3></li></ul>
-		<div>
-			<ol start="5">
-				<li><p>What do you usually do in your free time?</br><input type="text"></p></li>
-				<li><p>What is your favorite sport?</br><input type="text"></p></li>
-				<li><p>If you have to choose one activity to do on your Sunday, what would you choose?</br>
-					<ul>
-						<li><input type="radio" name="activity">Sleep</li>
-						<li><input type="radio" name="activity">Code</li>
-						<li><input type="radio" name="activity">Read book</li>
-						<li><input type="radio" name="activity">Party</li>
-						<li><input type="radio" name="activity">Visit your family</li>
-						<li><input type="radio" name="activity">Go hiking</li>
-					</ul>
-				</p></li>
-				<li><p>What is your favorite Programming language?</br><input type="text"></p></li>
-				<li><p>If your non-programmer friend asked you to write a line of code, which one would you write to flex your knowledge?</br><input type="text"></p></li>
-			</ol>
-			<p>Thank you for doing our survey. Wish you had a great day!</p>
-			<p>Press the submit button to submit your survey <button>Submit</button></p></br></br>
+	</div>
 
-		</div>
-	</form>
 </body>
+
 </html>
