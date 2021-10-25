@@ -12,6 +12,8 @@
 .title h4{
     text-transform: capitalize;
     font-size: 25px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
