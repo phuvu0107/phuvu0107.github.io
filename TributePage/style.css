@@ -1,0 +1,33 @@
+#title{
+    font-size: 40px;
+    
+  }
+#img-div{
+    background-color: rgb(255,222,173);
+    padding: 20px;
+  }
+  #img-caption {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  #image{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  #tribute-info h2{
+    margin-top: 20px;
+  }
+  #tribute-info p{
+    font-size: 20px;
+    text-indent: .5in;
+  }
+  
+  #tribute-link{
+    color: rgb(255,140,0);
+    font-size: 18px;
+  }
+  
