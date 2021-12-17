@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-image: url(/images/blackjacktable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    color: white;
+    margin-top: 10%;
+    font-size: large;
+}
+
+h1 {
+    margin: auto;
+    height: 100px;
+    color: goldenrod;
+    font-size: 48px;
+    padding-bottom: -100px;
+}
+
+ul {
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 8px;
+    list-style: none;
+    display: inline-flex;
+}
+
+ul li {
+    letter-spacing: 20px;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#message-el {
+    font-style: italic;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    width:10%;
+    border: none;
+    border-radius: 2px;
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(185, 142, 33);
+}
+
+.user {
+    display: inline;
+}
