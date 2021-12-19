@@ -123,7 +123,9 @@ function stand(){
             messageEl.textContent = "You lost your bet!"
             player.chips -= player.bet
             chipsEl.textContent = "Chips: $" + player.chips
-        } else {
+        } else if (sum === hostSum){
+            messageEl.textContent = "Your money is safe!"
+        }else {
             messageEl.textContent = "Congrats!!! You just won"
             player.chips += player.bet
             chipsEl.textContent = "Chips: $" + player.chips
