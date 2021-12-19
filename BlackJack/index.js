@@ -114,7 +114,9 @@ function newGame() {
 
 //stand
 function stand(){
-    if (sum >= 16){
+    if (sum > 21){
+        messageEl.textContent = "You are already out! Press NEW GAME to start again!"
+    } else if (sum >= 16){
         hostSum = Math.floor(Math.random()*(21-15) + 15)
         hostSumEl.textContent += hostSum
         if (sum < hostSum){
