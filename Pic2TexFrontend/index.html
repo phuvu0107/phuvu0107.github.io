@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <h1 id="title">Pix 2 Tex</h1>
+      <p id="caption">Bring ease into your work</p>
+    </nav>
+    <div class="container">
+      <section class="box user-side">
+        <form class="form" id="prompt">
+          <label for="image-input" class="custom-input-button"
+            >Click this line to attach the picture of the arithmetic
+            equation</label
+          >
+          <input
+            type="file"
+            name="image-input"
+            id="image-input"
+            accept="image/*"
+          />
+
+          <div id="display-image"></div>
+          <button type="submit" id="submit-btn">SUBMIT</button>
+        </form>
+      </section>
+
+      <section class="box output">
+        <p>Hello</p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
